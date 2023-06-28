@@ -1,0 +1,32 @@
+
+#header_principal {
+	margin: 0;
+	padding: 2rem 3rem;
+}
+
+#section_profil {
+    font-family: Nunito-ExtraBold;
+	font-size: 0.9rem;
+	text-align: right;
+	line-height: 1rem;
+}
+
+#section_profil button {
+    margin-left: 0.2rem;
+}
+
+#logo-image {
+	height: 2.8rem;
+}
+
+#logo-profil {
+	height: 2.4rem;
+	margin-right: 0.5rem;
+}
+
+
+
+
+
+
+

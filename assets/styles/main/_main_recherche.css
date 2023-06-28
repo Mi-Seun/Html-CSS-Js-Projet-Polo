@@ -1,0 +1,47 @@
+#recherche {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*image à côté du formulaire de recherche*/
+#recherche_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loupe_grande {
+    width: 12rem;
+    height: 12rem;
+}
+
+
+
+/*formulaire de recherche*/
+#recherche_form {
+}
+
+#recherche h2 {
+    display: flex;
+    justify-content: center;
+	font-family: Nunito-ExtraBold;
+    font-size: 2rem;/*30px;*/
+    font-weight: 900;
+    color: rgba(60, 224, 160, 1);
+}
+
+#instructions_recherche {
+    font-size: 14px;
+    color: rgba(117, 117, 117, 1);
+}
+
+#recherche input {
+    padding: 1rem;
+    color: black;
+    border: 2px rgba(221, 221, 221, 1) solid;
+	font-family: Nunito-ExtraBold;
+    font-weight: 900;
+	width: 90%;
+}

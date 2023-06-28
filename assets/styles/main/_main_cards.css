@@ -1,0 +1,84 @@
+/*Cartes du patient*/
+
+#patients {
+	/*un peu d'espace sous les cartes des patients 
+	pour que le menu burger ne cache pas les derniers patients*/
+	margin-bottom: 7rem;
+}
+
+.card {
+	padding: 1rem;
+	margin-top: 12rem;
+	border: 2px rgba(60, 224, 160, 1) solid;
+}
+
+
+#patients ul li:nth-child(odd) article {
+	border-color: rgba(228, 244, 237, 1);
+	background-color: rgba(228, 244, 237, 1);
+}
+
+#patients article h5 {
+	font-family: Nunito-ExtraBold;
+    color: rgba(60, 224, 160, 1);
+}
+
+
+#patients article p {
+	margin-bottom: 0;
+}
+
+#patients article hr {
+	margin: 1.5rem;
+}
+
+#patients article section {
+	margin: 0;
+}
+
+
+/*positionnement de l'avatar sur la carte du patient*/
+#patients{
+	position: relative;
+}
+
+#patients .card > img{
+	width: 8rem;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -85%);
+}
+
+
+
+/*tableaux d'infos sur la carte du patient*/
+#patients article section div {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0;
+	padding: 0;
+}
+
+.card_tab_icone {
+	/*background-color: blue;*/
+	justify-content: center;
+}
+
+.card_tab_icone img{
+	width: 1.2rem;
+}
+
+.card_tab_valeur {
+	font-family: Nunito-ExtraBold;
+	font-size: 0.8rem;
+	justify-content: flex-start;
+	word-break: break-word;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+@import url("site/_site.css");
+@import url("site/_site_header.css");
+@import url("site/_site_aside.css");
+@import url("site/_site_menuburger.css");
+
+@import url("main/_main.css");
+@import url("main/_main_menupatients.css");
+@import url("main/_main_recherche.css");
+@import url("main/_main_cards.css");
+
+

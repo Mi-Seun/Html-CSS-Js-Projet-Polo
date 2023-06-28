@@ -1,0 +1,92 @@
+#menupatients {
+	background-image: linear-gradient(rgba(228, 244, 237, 1), rgba(249, 249, 249, 1));
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Nunito-ExtraBold;
+}
+
+#menupatients p {
+    margin: 0;
+	padding: 2.5rem 0;
+    text-align: center;
+	font-size: 2rem;
+    font-weight: 900;
+}
+
+#menupatients ul {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+	flex-wrap: wrap;
+    margin: 0 1rem;
+	padding: 0 0 4rem;
+	/*
+	*/
+}
+
+#menupatients li {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    /*
+	display: inline;
+	width: min-content;
+	*/
+    margin: 0rem 1rem;
+	padding: 0;
+}
+
+#menupatients a {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    margin: 0 0 1rem 0;
+	padding: 1.3rem 2rem;
+    background-color: white;
+    color: rgba(60, 224, 160, 1);
+    border-color: rgba(60, 224, 160, 1);
+    border-width: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+#menupatients a div {
+    margin-left: 0.5rem;
+	text-align: left;
+	line-height : 1;
+}
+
+#menupatients .bouton1 {
+	padding-left: 4rem;
+	padding-right: 4rem;
+    background-color: rgba(60, 224, 160, 1);
+    color: rgba(249, 249, 249, 1);
+}
+
+#menupatients img {
+    margin: 0;
+}
+
+#menupatients a:hover {
+	box-shadow: 2px 2px 5px rgba(60, 224, 160, 1), -2px -2px 5px rgba(97, 253, 187, 1);
+}
+
+#menupatients a:active {
+	box-shadow: 1px 1px 3px rgba(60, 224, 160, 1), -1px -1px 3px rgba(97, 253, 187, 1);
+}
+
+#triangle {
+    width: 100%;
+	height: 2rem;
+	margin: 0;
+	padding: 0;
+    background-color: rgba(249, 249, 249, 1);
+    clip-path: polygon(55% 0%, 50% 100%, 45% 0%);
+}
+
+
+
+
+
